@@ -1,0 +1,13 @@
+{ "products":[{
+  "title" :  "sunlight",
+  "image" : "http://images.woolworthsstatic.co.za/Sunlight-Soap-250g-6001085041128.jpg?o=IGPVFlHORnf@SrwM5cvNPbCN6YMj&V=DDee&",
+  "description" : "all in one soap",
+  "cost"  : "ksh70"
+  },{
+    "title" :  "pizza",
+    "image" : "http://www.cicis.com/media/1138/pizza_trad_pepperoni.png",
+    "description" : "must be the pizza",
+    "cost"  : "ksh700"
+    }]
+
+}

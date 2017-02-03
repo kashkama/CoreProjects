@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+}
+.pie{
+	border: 1px solid orange;
+	border-radius: 8px;
+	padding: 10px;
+	width:25%;
+	background-color:LightGreen;
+}
+.album{
+	border:1px solid blue;
+	border-radius: 8px;
+	padding:10px;
+	width: 25%;
+	background-color: LightBlue;
+}
+.filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

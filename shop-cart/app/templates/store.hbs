@@ -1,0 +1,11 @@
+{{#each model as |product|}}
+  {{product-tile product=product}}
+{{/each}}
+
+<h3>Store</h3>
+
+{{#each model as |item|}}
+  {{#link-to 'store.item' item.id}} {{item.title}} - {{item.cost}}  {{/link-to}}
+{{/each}}
+
+{{outlet}}

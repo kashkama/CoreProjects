@@ -1,0 +1,28 @@
+<div>
+  <header class= "jumbotron">
+    <h1 class="text-center">BUSTLE</h1>
+  </header>
+
+    {{#bs-navbar type=(if inverse 'inverse') fluid=fluid as |navbar|}}
+        {{!-- <div class="navbar-header">
+
+            {{#nav.item}}{{#link-to "news"}}News{{/link-to}}{{/nav.item}}
+            {{#nav.item}}{{#link-to "entertainment"}}Entertainment{{/link-to}}{{/nav.item}}
+        </div> --}}
+        {{#navbar.content}}
+            {{#navbar.nav as |nav|}}
+                {{#nav.item}}{{#link-to "index"}}HOME{{/link-to}}{{/nav.item}}
+                {{#nav.item}}{{#link-to "news"}}News{{/link-to}}{{/nav.item}}
+                {{#nav.item}}{{#link-to "entertainment"}}Entertainment{{/link-to}}{{/nav.item}}
+            {{/navbar.nav}}
+        {{/navbar.content}}
+    {{/bs-navbar}}
+
+    {{outlet}}
+
+
+  <hr>
+  <footer>
+    {{#link-to 'news'}}Our representatives would love to help!{{/link-to}}
+  </footer>
+</div>

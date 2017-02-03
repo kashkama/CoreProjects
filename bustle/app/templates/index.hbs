@@ -1,0 +1,8 @@
+<h1>TODAY'S TOP STORIES</h1>
+
+
+  <ul>
+    {{#each model as |content|}}
+      {{content-tile content=content}}
+    {{/each}}
+  </ul>
